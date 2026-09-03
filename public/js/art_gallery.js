@@ -47,8 +47,8 @@ function modal_open() {
     var img = event.currentTarget;
     var modal_img = document.getElementById("modal_img");
 
-    modal.style.display = "grid";
     modal_img.src = img.src;
+    modal.style.display = "grid";
 }
 
 function modal_close() {
