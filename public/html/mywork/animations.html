@@ -85,13 +85,13 @@
                                     <span class="x" onclick="animgal2026()">&#9824;</span>
                                 </div>
                                 <div class="collapsible_gallery" id="anim2026">
-                                    <video onclick="anim_modal_open()">
+                                    <video onclick="anim_modal_open()" aria-label="Abel's Folly | Hawk is actually only in his late 30s. This is still an appropriate reaction for Jackie. Also this is an Umoupen test!">
                                         <source src="/assets/video/af_Damn.mp4" type="video/mp4">
                                     </video>
-                                    <video onclick="anim_modal_open()">
+                                    <video onclick="anim_modal_open()" aria-label="ROBLOX (Blox Fables AU) | I had to do this it fit Noli SO perfectly.">
                                         <source src="/assets/video/bf_RUNAWAY.mp4" type="video/mp4">
                                     </video>
-                                    <video onclick="anim_modal_open()">
+                                    <video onclick="anim_modal_open()" aria-label="ROBLOX (Blox Fables AU) | This trend was PERFECT for Noli and Cy, thanks to spaghettidoodle on Tumblr for the idea!!!">
                                         <source src="/assets/video/bf_cantremember.mp4" type="video/mp4">
                                     </video>
                                 </div>
@@ -152,9 +152,12 @@
         <!-- Modal -->
         <div class="modal" id="modal">
             <span class="x" id="close" onclick="modal_close()">&times;</span>
-            <video controls id="modal_video">
-                <source src="/assets/video/bf_RUNAWAY.mp4" type="video/mp4">
-            </video>
+            <div>
+                <video controls id="modal_video">
+                    <source src="/assets/video/bf_RUNAWAY.mp4" type="video/mp4">
+                </video>
+                <p id="modal_txt">Lorem Ipsum.</p>
+            </div>
         </div>
     </body>
 

@@ -46,8 +46,10 @@ function modal_open() {
     var modal = document.getElementById("modal");
     var img = event.currentTarget;
     var modal_img = document.getElementById("modal_img");
+    var modal_txt = document.getElementById("modal_txt");
 
     modal_img.src = img.src;
+    modal_txt.textContent = img.alt;    
     modal.style.display = "grid";
 }
 
@@ -60,9 +62,12 @@ function modal_close() {
 function anim_modal_open() {
     var modal = document.getElementById("modal");
     var vid = event.currentTarget.firstElementChild;
+    var vid_txt = event.currentTarget;
     var modal_vid = document.getElementById("modal_video");
+    var modal_txt = document.getElementById("modal_txt");
     
     modal_vid.firstElementChild.src = vid.src;
     modal_vid.load();
+    modal_txt.textContent = vid_txt.ariaLabel;
     modal.style.display = "grid";
 }
