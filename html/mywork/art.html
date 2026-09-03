@@ -1,0 +1,202 @@
+<!-- HOME -->
+<!DOCTYPE html>
+<html>
+    <!-- THE HEAD -->
+    <head>
+
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta charset="utf-8">
+
+        <meta name="description" content="WTFGayLittleZooid's personal webpage. Expect art, writing, and bullshit ahead!">
+	    <meta name="author" content="WTFGayLittleZooid">
+        <meta name="keywords" content="html, css, js">
+    
+	    <!-- Page Title --> <title>Art | Catmint's Grove</title>
+
+	    <!-- Favico --> <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
+	    <!-- Stylesheet --> <link rel="stylesheet" href="\css\style_main.css">
+    </head>
+
+    <!-- THE BODY -->
+    <body>
+        <!-- Audio-->
+        <script src="/js/audio.js"></script>
+        <!-- Art Gallery -->
+         <script src="/js/art_gallery.js"></script>
+
+        <!-- Holds the Entire Site -->
+        <div class="site_container">
+
+            <img src="/assets/img/floaties/victim_plush.png" onmousedown="play_plushie_sfx()" alt="A transparent image of a plushie of Victim, a gray stick figure holding a photo of a mouse cursor" class="floatie victim">
+            <img src="/assets/img/floaties/xurkitree_plush.png" onmousedown="play_plushie_sfx()" alt="A transparent image of a plushie of Xurkitree, a pokemon made of wires for a body and a star for a head" class="floatie xurk">
+
+            <!-- Actual Site Content -->
+            <div class="content_container">
+                <!-- Header -->
+                <div class="header">
+                    <!-- Banner -->
+                    <img src="/assets/img/graphics/header.png" alt="" width="100%" class="banner">
+                    <div class="navbar">
+                        <!-- Navigation Links-->
+                        <ul>
+                            <li><a href="/html/home.html">HOME</a></li>
+                            <li class="under_construction"><a href="">ABOUT</a></li>
+                            <li><a class="under_construction">BLOG</a></li>
+                            <li class="nav work">MY WORK
+                                <ul class="dropdown_links">
+                                    <li class="active"><a>My Art</a></li>
+                                    <li><a href="/html/mywork/animations.html">Animations</a></li>
+                                </ul>
+                            </li>
+                            <li class="under_construction"><a href="">BUSINESS</a></li>
+                            <li class="under_construction"><a href="">ETC</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="grid_container">
+                    <!-- Left -->
+                    <div class="left">
+                        <!-- Status Cafe -->
+                        <div class="status_cafe">
+                            <div id="statuscafe"><div id="statuscafe-username"></div><div id="statuscafe-content"></div></div><script src="https://status.cafe/current-status.js?name=gaylittlezooid" defer></script>
+                            <img src="/assets/img/graphics/status cafe.png" width="100%" alt="" class="status">
+                        </div>
+
+                        <!-- Link Me! -->
+                        <div class="link_me">
+                            <h2>Link me!</h2>
+                            <img src="/assets/img/site_buttons/gaylittlezooid.png" style="image-rendering: pixelated;" alt="Gaylittlezooid's site button">
+                            <textarea>
+                                <a href="https://gaylittlezooid.neocities.org/" target="_blank"><img src="[IMG SRC HERE!]" style="image-rendering: pixelated;" alt="Gaylittlezooid's site button"></a>
+                            </textarea>
+                        </div>
+                    </div>
+                    
+                    <!-- Middle -->
+                    <div class="middle">
+
+                        <h1>ART</h1>
+                        
+                        <!-- 2026 -->
+                        <section class="art_gallery">
+                                <div class="top_bar">
+                                    <h2>2026</h2>
+                                    <span class="x" onclick="gal2026()">&#9824;</span>
+                                </div>
+                                <div class="collapsible_gallery" id="a2026"">
+                                    <img src="/assets/img/art/2026/genesis.png" onclick="modal_open()">
+                                    <img src="/assets/img/art/2026/ban_appeals.png" onclick="modal_open()">
+                                    <img src="/assets/img/art/2026/losersss.png" onclick="modal_open()">
+                                    <img src="/assets/img/art/2026/dusekkar.png" onclick="modal_open()">
+                                    <img src="/assets/img/art/2026/tragedy_thistle.png" onclick="modal_open()">
+                                    <img src="/assets/img/art/2026/jackie_ref.png" onclick="modal_open()">
+                                    <img src="/assets/img/art/2026/hawk_ref.png" onclick="modal_open()">
+                                </div>
+                        </section>
+
+                        <!-- 2025 -->
+                        <section class="art_gallery">
+                            <div class="top_bar">
+                                <h2>2025</h2>
+                                <span class="x" onmousedown="gal2025()">&#9824;</span>
+                            </div>
+                            <div class="collapsible_gallery" id="a2025">
+                                <img src="/assets/img/art/2025/anonyme_doodles.png" onclick="modal_open()" alt="">
+                                <img src="/assets/img/art/2025/stickbug_tsc.jpg" onclick="modal_open()" alt="">
+                                <img src="/assets/img/art/2025/tdl_ava12.jpg" onclick="modal_open()" alt="">
+                                <img src="/assets/img/art/2025/404.png" onclick="modal_open()">
+                                <img src="/assets/img/art/2025/currant.png" onclick="modal_open()">
+                                <img src="/assets/img/art/2025/mal_casual.jpg" onclick="modal_open()">
+                                <img src="/assets/img/art/2025/more_jackie.jpg" onclick="modal_open()">
+                                <img src="/assets/img/art/2025/mori_post.jpg" onclick="modal_open()">
+                                <img src="/assets/img/art/2025/pierrot_ref.png" onclick="modal_open()">
+                                <img src="/assets/img/art/2025/pursuer.jpg" onclick="modal_open()">
+                                <img src="/assets/img/art/2025/tdl_loaf.jpg" onclick="modal_open()">  
+
+                            </div>
+                        </section>
+
+                        <!-- 2024 -->
+                        <section class="art_gallery">
+                            <div class="top_bar">
+                                <h2>2024</h2>
+                                <span class="x" onmousedown="gal2024()">&#9824;</span>
+                            </div>
+                            <div class="collapsible_gallery" id="a2024">
+                                <img src="/assets/img/art/2024/corrupt_file.jpg" onclick="modal_open()">
+                                <img src="/assets/img/art/2024/chosen fidget.gif" onclick="modal_open()">
+                                <img src="/assets/img/art/2024/chosen.png" onclick="modal_open()">
+                                <img src="/assets/img/art/2024/dark lord.PNG" onclick="modal_open()">
+                                <img src="/assets/img/art/2024/flying practice.png" onclick="modal_open()">
+                                <img src="/assets/img/art/2024/foreshortening.png" onclick="modal_open()">
+                                <img src="/assets/img/art/2024/victim stuff.png" onclick="modal_open()">
+                            </div>
+                        </section>
+
+                    </div>
+
+                    <!-- Right-->
+                    <div class="right">
+                        <!-- Webrings -->
+                        <div class="webrings">
+                            <h2>WEBRINGS</h2>
+                            <!-- NO AI -->
+                             <section>
+                                <map name="win7widget-compact">
+                                    <area href="https://baccyflap.com/noai" target="_blank" shape="rect" coords="0,0,216,29" alt="no ai webring" title="no ai webring">
+                                    <area href="https://baccyflap.com/noai/?prv&s=weu" target="_top" shape="rect" coords="102,45,199,71" alt="previous" title="previous">
+                                    <area href="https://baccyflap.com/noai/?rnd" target="_top" shape="rect" coords="102,81,199,105" alt="random" title="random">
+                                    <area href="https://baccyflap.com/noai/?nxt&s=weu" target="_top" shape="rect" coords="102,116,199,141" alt="next" title="next">
+                                </map>
+                            <img usemap="#win7widget-compact" src="https://baccyflap.com/noai/win7widget-compact.gif" alt="a Windows 7 style dialog box titled 'The No AI Webring' with a little icon showing a computer chip in a rubbish bin. beside it are three clickable buttons, labeled Previous, Random and Next"> 
+                            </section>
+
+                            <!-- CG WEBRING -->
+                            <table class="centerTable">
+                                <tbody><tr>
+                                <td class="webring-prev"><a href="https://schaefle.in/#">⇐</a></td>
+                                <td class="webring-info"><img src="https://zodiacs.b-cdn.net/misc/holdingHands.png" style="height: 50px; width: auto;"><br>
+                                <span class="webring-links">
+                                    <a href="javascript:void(0)" onclick="randomSiteCG()">⇆</a> | 
+                                    <a target="_blank" href="https://schaefle.in/cg">INDEX</a> | 
+                                    <a href="https://allium.house/garden/onionring/">!?</a></span></td>
+                                <td class="webring-next"><a href="https://schaefle.in/#">⇒</a></td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <!-- Neighbors -->
+                        <div class="cool_sites">
+                            <h2>NEIGHBORS</h2>
+                            <div class="site_buttons">
+                                <a href="https://nomnomnami.com/" target="_blank"><img src="/assets/img/site_buttons/nomnomnami.gif" alt="nomnomnami"></a>
+                                <a href="https://samsolarsystem.neocities.org/" target="_blank"><img src="/assets/img/site_buttons/samsolarsystem.gif" alt="samsolarsystem's site button!"></a>
+                                <a href="https://ailirus.neocities.org/" target="_blank"><img src="/assets/img/site_buttons/ailirus.png"></a>
+                                <a href="https://nickolox.com/home" target="_blank"><img src="/assets/img/site_buttons/nickolox.gif" alt=""></a>
+                                <a href="https://baristamae.neocities.org" target="_blank"><img src="/assets/img/site_buttons/maesitebutton.gif"></a>
+                                <a href="https://sketchingdemonss.nekoweb.org/" target="_blank"><img src="/assets/img/site_buttons/sketchingdemonss.png"></a>
+                                <a href="https://toonilumi.neocities.org/" target="_blank"><img src="/assets/img/site_buttons/toonilumi.gif" alt="toonilumi site button"></a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Modal -->
+        <div class="modal" id="modal">
+            <span class="x" id="close" onclick="modal_close()">&times;</span>
+            <img src="/assets/img/art/2026/ban_appeals.png" id="modal_img">
+        </div>
+    </body>
+
+    <!-- THE FOOTER -->
+     <footer>
+        <p>2025-2026 © WTFGayLittleZooid | Powered by Imagination & Neocities | <a href="https://neocities.org/site/gaylittlezooid" target="_blank">Site Profile</a> | Sitemap | Created on 3/23/2025 </p>
+     </footer>
+
+</html>

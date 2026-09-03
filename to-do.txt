@@ -1,0 +1,48 @@
+PERSONAL SITE:
+
+Home | About | Blog | My Work | Business | Etc
+
+HOME: 
+- Site Synopsis
+- Webrings
+- Neighbors
+- Navigation
+- Featured Pages 
+- Current Project
+- Status Cafe
+- Changelog
+
+ABOUT: 
+- Identity
+- My Partners
+- My Friends
+- Socials
+- Pets
+
+BLOG: 
+- Pinned Post
+- Recents
+
+MY WORK:
+- ART
+- WRITING
+- SITES
+- GAMES
+- OTHER
+
+BUSINESS:
+- Comm Information
+- Portfolio
+- Payment / Contact Options
+
+ETC: 
+- To-Do
+
+SITE INSPS: 
+https://nomnomnami.com/
+https://aywren.com/
+https://clownfred.zone/
+https://nickolox.com/
+https://ballonlea.net/
+https://swiftyshq.neocities.org/
+https://daniele63.com/
