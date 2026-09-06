@@ -679,8 +679,10 @@ footer {
         grid-template-columns: 175px 1fr;
         & .preview_info {
             display: block;
+            overflow-y: scroll;
             & p {
                 padding: 1rem;
+                padding-bottom: 3rem;
                 margin: auto;
             }
             & .preview_title {
